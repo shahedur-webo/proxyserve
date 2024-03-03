@@ -3,11 +3,11 @@ from telegram import Bot, Update, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import CommandHandler, ConversationHandler, MessageHandler, Filters, CallbackContext, Updater
 
 app = Flask(__name__)
-TOKEN = "7023674671:AAHAqeb4AwDo3obBO96CsBxrkJ8mh_Ex82c"
-WEBSITE_API_KEY = "YOUR_WEBSITE_API_KEY"
+TOKEN = "7182878685:AAEFlDxQWXqp3b1KfPW8qWGRMfe6FLp-5Jg"
+WEBSITE_API_KEY = "https://10proxy.com/api/N0SU71304Q7Y/My-Proxy/?email=nathanharvey392@gmail.com&passcode=Ahmed@1122"
 
-bot = Bot(token=TOKEN)
-updater = Updater(token=TOKEN, use_context=True)
+bot = Bot(token=7182878685:AAEFlDxQWXqp3b1KfPW8qWGRMfe6FLp-5Jg)
+updater = Updater(token=7182878685:AAEFlDxQWXqp3b1KfPW8qWGRMfe6FLp-5Jg, use_context=True)
 dp = updater.dispatcher
  
 SIGN_UP, LOGIN, PAY_NOW, GET_IP_NOW = range(4)
